@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="7.999294">
+<testcase classname="Employee management API testing using BDD framework" name="I want to check GET functionality for particular ID" time="5.874311">
+<system-out><![CDATA[Given I have Employee Management API up and running.........................passed
+When I give "22" with API URI...............................................passed
+Then the status code should be "200"........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee management API testing using BDD framework" name="I want to check POST functionality" time="1.909054">
+<system-out><![CDATA[Given I have Employee Management API up and running.........................passed
+When I give "63" "Ravi Kumar" "Data Analyst" with API URI...................passed
+Then the status code should be "200"........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Employee management API testing using BDD framework" name="I want to check POST functionality 2" time="0.215929">
+<system-out><![CDATA[Given I have Employee Management API up and running.........................passed
+When I give "56" "Manoj Tivari" "Advocate" with API URI.....................passed
+Then the status code should be "200"........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

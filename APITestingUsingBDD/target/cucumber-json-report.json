@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "I want to check GET functionality for particular ID",
+        "description": "",
+        "id": "employee-management-api-testing-using-bdd-framework;i-want-to-check-get-functionality-for-particular-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5340166949,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have Employee Management API up and running",
+            "match": {
+              "location": "GetSteps.i_have_Employee_Management_API_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 530219513,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I give \"22\" with API URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 8
+                }
+              ],
+              "location": "GetSteps.i_give_with_API_URI(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3924525,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "GetSteps.the_status_code_should_be(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "I want to check POST functionality",
+        "description": "",
+        "id": "employee-management-api-testing-using-bdd-framework;i-want-to-check-post-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 105287741,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have Employee Management API up and running",
+            "match": {
+              "location": "GetSteps.i_have_Employee_Management_API_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1803432395,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I give \"63\" \"Ravi Kumar\" \"Data Analyst\" with API URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "63",
+                  "offset": 8
+                },
+                {
+                  "val": "Ravi Kumar",
+                  "offset": 13
+                },
+                {
+                  "val": "Data Analyst",
+                  "offset": 26
+                }
+              ],
+              "location": "GetSteps.i_give_with_API_URI(int,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 333630,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "GetSteps.the_status_code_should_be(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "I want to check POST functionality",
+        "description": "",
+        "id": "employee-management-api-testing-using-bdd-framework;i-want-to-check-post-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 56153667,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have Employee Management API up and running",
+            "match": {
+              "location": "GetSteps.i_have_Employee_Management_API_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159637236,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I give \"56\" \"Manoj Tivari\" \"Advocate\" with API URI",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56",
+                  "offset": 8
+                },
+                {
+                  "val": "Manoj Tivari",
+                  "offset": 13
+                },
+                {
+                  "val": "Advocate",
+                  "offset": 28
+                }
+              ],
+              "location": "GetSteps.i_give_with_API_URI(int,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138585,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 27
+                }
+              ],
+              "location": "GetSteps.the_status_code_should_be(int)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee management API testing using BDD framework",
+    "description": "\t\t As user i want to check that all the API functionality is working or not\r\n\t\t I want to check GET, POST, PUT, DELETE methods in API provided",
+    "id": "employee-management-api-testing-using-bdd-framework",
+    "keyword": "Feature",
+    "uri": "EmployeeManagementAPI.feature"
+  }
+]
